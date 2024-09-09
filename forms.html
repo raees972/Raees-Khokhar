@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <form>
+
+
+        <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+
+
+  <br><label for="gender">Gender:</label>
+<select id="gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="not_mention">Not Mention</option>
+</select><br>
+
+
+        <p>Choose date of Submission</p>
+        <input type="datetime-local">
+        <p>Choose your favorite Course:</p>
+            <input type="radio" id="web" name="Course" value="web">
+            <label for="web">WEB</label><br>
+            <input type="radio" id="pp" name="Course" value="pp">
+            <label for="pp">PP</label><br>
+            <input type="radio" id="artificial_intelligence" name="Course" value="artificial_intelligence">
+            <label for="artificial_intelligence">Artificial Intelligence</label>
+            <br>
+
+
+            <p>What type of vehicle you have?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+  <br>
+
+
+  <p>Tell Us about yourself</p>
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br>
+
+
+  <input type="submit" value="Submit">
+
+
+  <input type="reset" value="Reset">
+
+  
+  <button type="button" onclick="alert('Thanks for your response...')">Click Me!</button><br>
+      </form>
+</body>
+</html>
